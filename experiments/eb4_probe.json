@@ -1,0 +1,26 @@
+{
+ "cipher": "Eb4",
+ "table_entries": 16777216,
+ "global_negation_holds": false,
+ "negation_check_s": 3.239014799997676,
+ "build_one_table_s": 2.8348153000115417,
+ "rebuild_from_symmetry_s": 0.25853540003299713,
+ "S2_rebuild_matches": true,
+ "dense_scan_lookup_s": 0.0269932399969548,
+ "hits_per_query": 1048672,
+ "invert_one_table_s": 0.1852639999706298,
+ "inverted_lookup_s": 1.1032000184059142e-06,
+ "inverted_matches_dense": true,
+ "one_table_dense_MiB": 16.0,
+ "one_table_inverted_MiB": 64.00006484985352,
+ "peak_MiB": 695.89453125,
+ "extrapolated": {
+  "uniform_all_15x6_dense_MiB": 1440.0,
+  "symmetric_8x6_dense_MiB": 768.0,
+  "inverted_all_15x6_MiB": 5760.005836486816,
+  "attack_needs_only_known_delta_6_tables_dense_MiB": 96.0,
+  "original_text_format_all_90_GiB_approx": 19.6875,
+  "uniform_build_all_s": 255.13337700103875,
+  "symmetric_build_all_s": 136.071134400554
+ }
+}
