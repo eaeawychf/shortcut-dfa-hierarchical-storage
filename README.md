@@ -1,9 +1,18 @@
-# Shortcut DFA 大函数表的分层分解：内存—时间边界的实证刻画
+# Hierarchical Decomposition of Shortcut DFA Large Function Tables: An Empirical Study on Memory-Time Boundaries
 
-基于 Shortcut2Secrets（TCHES 2025）的开源实现 https://github.com/SJTUwwz/DFA_Elisabeth_family，
-在 Elisabeth-4 / Elisabeth-b4 上对比过滤表 T_{δ,j} 的几种组织方式（均匀 15×4、倒排索引、NLUT 对称压缩）。
-使用了claude辅助编程。
+This project is based on the open-source implementation of **Shortcut2Secrets** (TCHES 2025) available at [SJTUwwz/DFA_Elisabeth_family](https://github.com/SJTUwwz/DFA_Elisabeth_family). 
 
-- 结果与结论：[experiments/RESULTS.md](experiments/RESULTS.md)
-- 运行前把原仓库克隆到本目录：`git clone https://github.com/SJTUwwz/DFA_Elisabeth_family`
-- 依赖：Python 3、numpy、psutil
+We conduct an empirical comparison of several organization methods for the filter table \(T_{\{6,7\}}\) (including uniform 15x4, inverted index, and NLUT symmetric compression) on the Elisabeth-4 and Elisabeth-b4 architectures. The implementation was developed with the assistance of Claude (AI coding assistant).
+
+## Getting Started
+
+### Prerequisites & Dependencies
+Make sure you have the following installed:
+* Python 3
+* numpy
+* psutil
+
+### Setup
+Before running the experiments, you need to clone the original repository into this directory:
+```bash
+git clone https://github.com/SJTUwwz/DFA_Elisabeth_family
